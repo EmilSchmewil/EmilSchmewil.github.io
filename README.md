@@ -1,9 +1,8 @@
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-</head>
-<body>
-    <h1>SEITE IM MOMENT IN BEARBEITUNG</h1>
-</body>
+<h1>Ist mein PC an???</h1>
+<button onclick="lol()">Check!</button>
+<script>
+    localStorage.setItem("page_visited", "true");
+    function lol() {
+        alert("Ja");
+    }
+</script>
