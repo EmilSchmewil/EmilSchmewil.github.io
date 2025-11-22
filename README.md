@@ -1,7 +1,21 @@
-<h1>Ist mein PC an???</h1>
-<button onclick="lol()">Check!</button>
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>Homepage</title>
+    </head>
+<body>
+    <h1 id="Überschrift">Wilkommen auf meiner Homepage</h1>
+    <button id="Button1">Projekte</button>
+</body>
 <script>
-    function lol() {
-        alert("Ja");
-    }
+    document.getElementById("Button1").addEventListener("click", function() {
+        document.write(
+            '<h2>Meine Projekte</h2>' +
+            '<ul>' +
+            '<li><a href="Arduino.html">Projekt 1: Arduino Bauprojekte</a></li>' +
+            '<li><a href="Web.html">Projekt 2: Wesitedevelopment</a></li>' +
+            '<li><a href="Gamez.html">Projekt 3: Spieleentwicklung</a></li>' +
+            '</ul>'
+        );
+    });
 </script>
