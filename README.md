@@ -5,7 +5,8 @@
 <body>
     <h1 id="Überschrift">Wilkommen auf meiner Homepage</h1>
     <button id="Button1">Projekte</button>
-    <button href="3DModelle.html">3D Modelle</button>
+    <button onclick="location.href='3DModelle.html'">3D Modelle</button>
+
 </body>
 <script>
     document.getElementById("Button1").addEventListener("click", function() {
