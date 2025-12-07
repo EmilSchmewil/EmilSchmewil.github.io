@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="de">
     <head>
         <title>Homepage</title>
@@ -5,6 +6,7 @@
 <body>
     <h1 id="Überschrift">Wilkommen auf meiner Homepage</h1>
     <button id="Button1">Projekte</button>
+    <button id="Button2">3D Modelle</button>
 </body>
 <script>
     document.getElementById("Button1").addEventListener("click", function() {
