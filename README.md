@@ -15,6 +15,7 @@
             '<ul>' +
             '<li><a href="Arduino.html">Projekt 1: Arduino Bauprojekte</a></li>' +
             '<li><a href="Web.html">Projekt 2: Wesitedevelopment</a></li>' +
+            '<li><a href="Mod.html">Projekt 2: Minecraft Mod</a></li>' +
             '<li><a href="Gamez.html">Projekt 3: Spieleentwicklung</a></li>' +
             '</ul>'
         );
