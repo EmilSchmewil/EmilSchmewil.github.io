@@ -8,6 +8,7 @@
     <button onclick="location.href='3DModelle.html'">3D Modelle</button>
     <button onclick="location.href='Mod.html'">Minecraft Mod</button>
     <button onclick="location.href='Shop.html'">IN PROGRESS</button>
+    <button onclick="location.href='lol.html'">PC-Status Checker</button>
 
 </body>
 <script>
